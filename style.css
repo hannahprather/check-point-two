@@ -1,0 +1,23 @@
+font-1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bg-img-1{
+  background-image: url(https://wallpaperaccess.com/full/2753723.jpg);
+  min-height: 90vh;
+  min-width: 90vh;
+  background-size: cover;
+}
+
+.sun-img{
+  padding-left: 260px;
+  padding-top: 65px;
+}
+
+.bg-black{
+  background-color: rgba(24, 22, 22, 0.075);
+}
+
+.fw-b{
+  font-weight: bolder;
+}

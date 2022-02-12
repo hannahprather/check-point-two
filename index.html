@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tattooweenie</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header class="container-fluid bg-dark text-light">
+    <div class="row p-2">
+      <div class="col-6 ">
+        <H1 class="text-center"> TATTOOWEENIE</H1>
+      </div>
+      <div class="col-6 font-1 text-center">Bank: 🌭<span id="bank-weenies"></span> </div>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row bg-img-1">
+      <div class="col-12 text-center">
+        <div class="sun-img" onclick="">
+          <img src="https://www.freeiconspng.com/thumbs/sun/purple-radiant-sun-pictures-14.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="rounded bg-black p-2 text-light">
+            <h5 class="px-5">LEVEL UP</h5>
+            <div id='upgrade'>
+              <p> 🌭 <span id="moisture-price"></span><button type="button"
+                  class="btn btn-outline-light">Moisture</button>
+              </p>
+              <p> 🌭 <span id="C3P0-price"></span>
+                <button type="button" class="btn btn-outline-light">Droids</button>
+              </p>
+              <p> 🌭 <span id="Bantha-price"></span><button type="button" class="btn btn-outline-light">Bantha</button>
+              </p>
+              <p> 🌭 <span id="theForce-price"></span><button type="button" class="btn btn-outline-light">The
+                  Force</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="rounded bg-black p-3 text-light">
+            <h5 class="px-5">Arsenal</h5>
+            <p class="p-2">------<span id="moisture-accumulated"></span></p>
+            <p class="p-2">------<span id="droids-accumulated"></span></p>
+            <p class="p-2">------<span id="Banths-accumulated"></span></p>
+            <p class="p-2">------<span id="Force-accumulated"></span></p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+  </main>
+
+</body>
+
+<footer>
+
+</footer>
+<script src="app.js"></script>
+</body>
+
+</html>
